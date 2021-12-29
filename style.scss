@@ -1,0 +1,457 @@
+$font-family: "Open Sans", sans-serif;
+
+@mixin text($fontsize: 16px) {
+  color: white;
+  font-size: $fontsize;
+}
+
+.container {
+  width: 1920px;
+  height: 6102px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  &__background {
+    position: absolute;
+    top: 476px;
+    position: -1;
+  }
+  /**=========Header=================*/
+  .header {
+    width: 100%;
+    height: 1030px;
+    position: relative;
+    display: flex;
+    &__video{
+     
+      position: absolute;
+      top:500px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &__top {
+      width: 1920px;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 0px;
+    }
+    &__18t {
+      margin-top: 6px;
+      margin-left: 9px;
+    }
+    &__menu {
+      display: flex;
+      margin-top: 39px;
+      margin-right: 139px;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    &__item {
+      border: 1px solid #cccc99;
+      border-radius: 50%;
+      color: #cccc99;
+      padding: 10px;
+      margin-left: 8px;
+      background-color: rgba(51, 51, 102, 0.4);
+    }
+    &__home {
+      border-radius: 20px;
+      background-color: rgba(51, 51, 102, 0.4);
+      text-decoration: none;
+    }
+    &__main {
+      position: relative;
+      &-thiennu {
+        position: absolute;
+        top: 55px;
+        left: 416px;
+      }
+
+  }
+}
+  /**=========Hẹn ước =================*/
+  .henuoc {
+    position: relative;
+    height: 236px;
+    &__bg {
+      position: absolute;
+      top: -170px;
+      left: 20px;
+      z-index: 1;
+    }
+    &__songuoihenuoc {
+      position: absolute;
+      top: -50px;
+      left: 606px;
+      z-index: 2;
+    }
+    &__text {
+      font-family: $font-family;
+      position: absolute;
+      font-size: 30px;
+      color: #333333;
+      top: -40px;
+      left: 750px;
+      z-index: 2;
+    }
+    &__text2 {
+      font-family: $font-family;
+      position: absolute;
+      font-size: 20px;
+      color: #333333;
+      top: 20px;
+      left: 750px;
+      z-index: 2;
+    }
+    &__color {
+      font-family: $font-family;
+      font-size: 40px;
+      color: #993333;
+      font-weight: bold;
+      z-index: 2;
+    }
+    &__vongtron {
+      position: absolute;
+      z-index: 2;
+      top: 50px;
+      left: 280px;
+    }
+    &__list {
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center;
+    }
+    @mixin sohenuoc {
+      width: 60px;
+      z-index: 2;
+      color: #333333;
+      position: absolute;
+      top: 180px;
+    }
+    &__sohenuoc1 {
+      @include sohenuoc;
+      left: 400px;
+    }
+    &__sohenuoc2 {
+      @include sohenuoc;
+      left: 750px;
+    }
+    &__sohenuoc3 {
+      @include sohenuoc;
+      left: 1090px;
+    }
+    &__sohenuoc4 {
+      @include sohenuoc;
+      left: 1440px;
+    }
+    &__color2 {
+      font-family: $font-family;
+      font-size: 22px;
+      color: #993333;
+      font-weight: bold;
+      z-index: 2;
+    }
+    &__buttonbg {
+      position: absolute;
+      top: -113px;
+      left: 1700px;
+      z-index: 2;
+    }
+    &__button1 {
+      position: absolute;
+      top: -83px;
+      left: 1673px;
+      z-index: 3;
+    }
+    &__button2 {
+      position: absolute;
+      top: 60px;
+      left: 1673px;
+      z-index: 3;
+    }
+  }
+  .monphai {
+    position: relative;
+    height: 924px;
+    &__tieude {
+      position: absolute;
+      top: 200px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &__bg {
+      position: absolute;
+      top: 400px;
+      z-index: 3;
+    }
+    &__charnam {
+      position: absolute;
+      z-index: 4;
+      top: 230px;
+      left: 190px;
+    }
+    &__bgdiepkhach {
+      position: absolute;
+      z-index: 5;
+      top: 400px;
+      left: 90px;
+    }
+    &__diepkhach {
+      position: absolute;
+      z-index: 6;
+      top: 430px;
+      left: 125px;
+    }
+    &__playvideo {
+      position: absolute;
+      z-index: 7;
+      top: 520px;
+      left: 300px;
+    }
+    &__buttonnam {
+      position: absolute;
+      z-index: 7;
+      top: 580px;
+      left: 1660px;
+    }
+    &__buttonnu {
+      position: absolute;
+      z-index: 7;
+      top: 570px;
+      left: 1618px;
+    }
+    &__hover:hover{
+      filter: brightness(200%);
+    }
+    &__decor {
+      position: absolute;
+      z-index: 7;
+      top: 400px;
+      left: 1618px;
+    }
+  }
+  .kynang {
+    position: relative;
+    height: 1100px;
+    &__tieude {
+      position: absolute;
+      top: 300px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &__bg {
+      position: absolute;
+      top: 750px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+    &__ingame {
+      position: absolute;
+      top: 720px;
+      left: 51.3%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+    }
+    &__book2 {
+      position: absolute;
+      top: 370px;
+      left: 253px;
+
+      z-index: 3;
+    }
+    &__book1 {
+      position: absolute;
+      top: 410px;
+      left: 350px;
+
+      z-index: 3;
+    }
+    &__char {
+      position: absolute;
+      top: 410px;
+      left: 350px;
+
+      z-index: 3;
+    }
+    &__diepkhach {
+      position: absolute;
+      top: 500px;
+      left: 1400px;
+      z-index: 3;
+    }
+    &__video {
+      position: absolute;
+      top: 600px;
+      left: 1430px;
+      z-index: 3;
+    }
+    &__play-video {
+      position: absolute;
+      top: 625px;
+      left: 1440px;
+      z-index: 3;
+    }
+    &__button1 {
+      position: absolute;
+      top: 680px;
+      left: 200px;
+      z-index: 3;
+    }
+    &__button2 {
+      position: absolute;
+      top: 680px;
+      left: 1650px;
+      z-index: 3;
+    }
+    &__decor {
+      position: absolute;
+      top: 600px;
+      left: 1500px;
+      z-index: 3;
+    }
+    &__text {
+      position: absolute;
+      top: 1100px;
+      left: 51.3%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      line-height: 25px;
+    }
+    &__title {
+      font-size: 25px;
+      color: #ffffcc;
+    }
+    &__detail {
+      @include text;
+    }
+    &__img {
+      position: absolute;
+      top: 1060px;
+      left: 580px;
+      z-index: 3;
+    }
+  }
+  .tinhnang{
+      height: 1030px;
+      position: relative;
+      &__tieude {
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      &__ingame{
+          position: absolute;
+          top: 450px;
+      }
+      &__text{
+          position: absolute;
+          top: 600px;
+          left: 1350px;
+      }
+      &__bg{
+          position: absolute;
+          top: 410px;
+          left: 1000px;
+      }
+      ul{
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 430px;
+          left: 1590px;   
+      }
+      &__1:hover{
+        filter: brightness(200%);
+      }
+  }
+  .svmoi{
+    height: 1352px;
+    position: relative;
+    &__char{
+      position: absolute;
+      top: -280px;
+      right: 0px;
+    }
+    &__tieude {
+      position: absolute;
+      top: 300px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &__icon{
+      position: absolute;
+      bottom: 380px;
+      left: 500px;
+      z-index: 4;
+    }
+    &__cta{
+      position: absolute;
+      bottom: 320px;
+      left: 400px;
+      z-index: 3;
+      animation: blinker .8s linear infinite;
+    }
+    @keyframes blinker {
+      50% {
+        opacity: 0;
+      }
+    }
+    &__text{
+      @include text;
+      font-family: $font-family;
+      font-size: 25px;
+      position: absolute;
+      bottom: 335px;
+      left: 460px;
+      z-index: 3;
+    }
+    &__item{
+      position: absolute;
+      bottom: -15px;
+      left: 50px;
+      z-index: 3;
+    }
+  }
+  .footer{
+    position: relative;
+    height: 265px;
+    background-color: #333333;
+    z-index: 10;
+    bottom: -155px;
+    &__logo{
+      
+        position: absolute;
+        top: 46px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      
+    }
+    &__vng{
+      margin-left: 30px;
+    }
+    &__info{
+      position: absolute;
+      @include text;
+      font-size: 20px;
+      font-family: $font-family;
+      line-height: 25px;
+      left: 50%;
+      top: 150px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  }
+
+  @media screen and(max-width:767px) {
+    .container{
+      .header{
+        &__top{
+          display: none;
+        }
+      }
+    }   
+  }
+}

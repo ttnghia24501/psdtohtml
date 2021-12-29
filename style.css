@@ -1,0 +1,453 @@
+@charset "UTF-8";
+.container {
+  width: 1920px;
+  height: 6102px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  /**=========Header=================*/
+  /**=========Hẹn ước =================*/
+}
+.container__background {
+  position: absolute;
+  top: 476px;
+  position: -1;
+}
+.container .header {
+  width: 100%;
+  height: 1030px;
+  position: relative;
+  display: flex;
+}
+.container .header__video {
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .header__top {
+  width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0px;
+}
+.container .header__18t {
+  margin-top: 6px;
+  margin-left: 9px;
+}
+.container .header__menu {
+  display: flex;
+  margin-top: 39px;
+  margin-right: 139px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container .header__item {
+  border: 1px solid #cccc99;
+  border-radius: 50%;
+  color: #cccc99;
+  padding: 10px;
+  margin-left: 8px;
+  background-color: rgba(51, 51, 102, 0.4);
+}
+.container .header__home {
+  border-radius: 20px;
+  background-color: rgba(51, 51, 102, 0.4);
+  text-decoration: none;
+}
+.container .header__main {
+  position: relative;
+}
+.container .header__main-thiennu {
+  position: absolute;
+  top: 55px;
+  left: 416px;
+}
+.container .henuoc {
+  position: relative;
+  height: 236px;
+}
+.container .henuoc__bg {
+  position: absolute;
+  top: -170px;
+  left: 20px;
+  z-index: 1;
+}
+.container .henuoc__songuoihenuoc {
+  position: absolute;
+  top: -50px;
+  left: 606px;
+  z-index: 2;
+}
+.container .henuoc__text {
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  font-size: 30px;
+  color: #333333;
+  top: -40px;
+  left: 750px;
+  z-index: 2;
+}
+.container .henuoc__text2 {
+  font-family: "Open Sans", sans-serif;
+  position: absolute;
+  font-size: 20px;
+  color: #333333;
+  top: 20px;
+  left: 750px;
+  z-index: 2;
+}
+.container .henuoc__color {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color: #993333;
+  font-weight: bold;
+  z-index: 2;
+}
+.container .henuoc__vongtron {
+  position: absolute;
+  z-index: 2;
+  top: 50px;
+  left: 280px;
+}
+.container .henuoc__list {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.container .henuoc__sohenuoc1 {
+  width: 60px;
+  z-index: 2;
+  color: #333333;
+  position: absolute;
+  top: 180px;
+  left: 400px;
+}
+.container .henuoc__sohenuoc2 {
+  width: 60px;
+  z-index: 2;
+  color: #333333;
+  position: absolute;
+  top: 180px;
+  left: 750px;
+}
+.container .henuoc__sohenuoc3 {
+  width: 60px;
+  z-index: 2;
+  color: #333333;
+  position: absolute;
+  top: 180px;
+  left: 1090px;
+}
+.container .henuoc__sohenuoc4 {
+  width: 60px;
+  z-index: 2;
+  color: #333333;
+  position: absolute;
+  top: 180px;
+  left: 1440px;
+}
+.container .henuoc__color2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  color: #993333;
+  font-weight: bold;
+  z-index: 2;
+}
+.container .henuoc__buttonbg {
+  position: absolute;
+  top: -113px;
+  left: 1700px;
+  z-index: 2;
+}
+.container .henuoc__button1 {
+  position: absolute;
+  top: -83px;
+  left: 1673px;
+  z-index: 3;
+}
+.container .henuoc__button2 {
+  position: absolute;
+  top: 60px;
+  left: 1673px;
+  z-index: 3;
+}
+.container .monphai {
+  position: relative;
+  height: 924px;
+}
+.container .monphai__tieude {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .monphai__bg {
+  position: absolute;
+  top: 400px;
+  z-index: 3;
+}
+.container .monphai__charnam {
+  position: absolute;
+  z-index: 4;
+  top: 230px;
+  left: 190px;
+}
+.container .monphai__bgdiepkhach {
+  position: absolute;
+  z-index: 5;
+  top: 400px;
+  left: 90px;
+}
+.container .monphai__diepkhach {
+  position: absolute;
+  z-index: 6;
+  top: 430px;
+  left: 125px;
+}
+.container .monphai__playvideo {
+  position: absolute;
+  z-index: 7;
+  top: 520px;
+  left: 300px;
+}
+.container .monphai__buttonnam {
+  position: absolute;
+  z-index: 7;
+  top: 580px;
+  left: 1660px;
+}
+.container .monphai__buttonnu {
+  position: absolute;
+  z-index: 7;
+  top: 570px;
+  left: 1618px;
+}
+.container .monphai__hover:hover {
+  filter: brightness(200%);
+}
+.container .monphai__decor {
+  position: absolute;
+  z-index: 7;
+  top: 400px;
+  left: 1618px;
+}
+.container .kynang {
+  position: relative;
+  height: 1100px;
+}
+.container .kynang__tieude {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .kynang__bg {
+  position: absolute;
+  top: 750px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.container .kynang__ingame {
+  position: absolute;
+  top: 720px;
+  left: 51.3%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.container .kynang__book2 {
+  position: absolute;
+  top: 370px;
+  left: 253px;
+  z-index: 3;
+}
+.container .kynang__book1 {
+  position: absolute;
+  top: 410px;
+  left: 350px;
+  z-index: 3;
+}
+.container .kynang__char {
+  position: absolute;
+  top: 410px;
+  left: 350px;
+  z-index: 3;
+}
+.container .kynang__diepkhach {
+  position: absolute;
+  top: 500px;
+  left: 1400px;
+  z-index: 3;
+}
+.container .kynang__video {
+  position: absolute;
+  top: 600px;
+  left: 1430px;
+  z-index: 3;
+}
+.container .kynang__play-video {
+  position: absolute;
+  top: 625px;
+  left: 1440px;
+  z-index: 3;
+}
+.container .kynang__button1 {
+  position: absolute;
+  top: 680px;
+  left: 200px;
+  z-index: 3;
+}
+.container .kynang__button2 {
+  position: absolute;
+  top: 680px;
+  left: 1650px;
+  z-index: 3;
+}
+.container .kynang__decor {
+  position: absolute;
+  top: 600px;
+  left: 1500px;
+  z-index: 3;
+}
+.container .kynang__text {
+  position: absolute;
+  top: 1100px;
+  left: 51.3%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  line-height: 25px;
+}
+.container .kynang__title {
+  font-size: 25px;
+  color: #ffffcc;
+}
+.container .kynang__detail {
+  color: white;
+  font-size: 16px;
+}
+.container .kynang__img {
+  position: absolute;
+  top: 1060px;
+  left: 580px;
+  z-index: 3;
+}
+.container .tinhnang {
+  height: 1030px;
+  position: relative;
+}
+.container .tinhnang__tieude {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .tinhnang__ingame {
+  position: absolute;
+  top: 450px;
+}
+.container .tinhnang__text {
+  position: absolute;
+  top: 600px;
+  left: 1350px;
+}
+.container .tinhnang__bg {
+  position: absolute;
+  top: 410px;
+  left: 1000px;
+}
+.container .tinhnang ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 430px;
+  left: 1590px;
+}
+.container .tinhnang__1:hover {
+  filter: brightness(200%);
+}
+.container .svmoi {
+  height: 1352px;
+  position: relative;
+}
+.container .svmoi__char {
+  position: absolute;
+  top: -280px;
+  right: 0px;
+}
+.container .svmoi__tieude {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .svmoi__icon {
+  position: absolute;
+  bottom: 380px;
+  left: 500px;
+  z-index: 4;
+}
+.container .svmoi__cta {
+  position: absolute;
+  bottom: 320px;
+  left: 400px;
+  z-index: 3;
+  animation: blinker 0.8s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.container .svmoi__text {
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  position: absolute;
+  bottom: 335px;
+  left: 460px;
+  z-index: 3;
+}
+.container .svmoi__item {
+  position: absolute;
+  bottom: -15px;
+  left: 50px;
+  z-index: 3;
+}
+.container .footer {
+  position: relative;
+  height: 265px;
+  background-color: #333333;
+  z-index: 10;
+  bottom: -155px;
+}
+.container .footer__logo {
+  position: absolute;
+  top: 46px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .footer__vng {
+  margin-left: 30px;
+}
+.container .footer__info {
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 25px;
+  left: 50%;
+  top: 150px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .container .container .header__top {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
